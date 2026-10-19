@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/bottom_navigation"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+    android:id="@+id/ll_index"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+<ImageView
+android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:src="@drawable/index" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="2dp"
+    android:text="首页"
+    android:textColor="#000000"
+    android:textSize="14sp" />
+    </LinearLayout>
+
+
+<ImageView
+android:layout_width="1dp"
+android:layout_height="40dp"
+    android:layout_gravity="center_vertical"
+    android:background="#CFCFCF" />
+
+
+<LinearLayout
+android:id="@+id/ll_goods"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+<ImageView
+android:layout_width="30dp"
+android:layout_height="30dp"
+android:src="@drawable/product" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="2dp"
+android:text="点单"
+android:textColor="#000000"
+android:textSize="14sp" />
+    </LinearLayout>
+
+
+<ImageView
+android:layout_width="1dp"
+android:layout_height="40dp"
+android:layout_gravity="center_vertical"
+android:background="#CFCFCF" />
+
+
+<LinearLayout
+android:id="@+id/ll_cart"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+<ImageView
+android:layout_width="30dp"
+android:layout_height="30dp"
+android:src="@drawable/shoppingcart" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="2dp"
+android:text="订单"
+android:textColor="#000000"
+android:textSize="14sp" />
+    </LinearLayout>
+
+
+<ImageView
+android:layout_width="1dp"
+android:layout_height="40dp"
+android:layout_gravity="center_vertical"
+android:background="#CFCFCF" />
+
+    <!-- 个人 -->
+<LinearLayout
+android:id="@+id/ll_pearson"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+<ImageView
+android:layout_width="30dp"
+android:layout_height="30dp"
+android:src="@drawable/pearson" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="2dp"
+android:text="我的"
+android:textColor="#000000"
+android:textSize="14sp" />
+    </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sye" />
+    <Button
+        android:background="@drawable/btn_bg"
+        android:id="@+id/btn_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="到店自取"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="40dp"/>
+    <Button
+        android:background="@drawable/btn_bg"
+        android:padding="10dp"
+        android:id="@+id/btn_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="外送到家"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="250dp"/>
+</RelativeLayout>
